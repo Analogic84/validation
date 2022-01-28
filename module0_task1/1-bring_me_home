@@ -1,5 +1,16 @@
 #!/bin/bash
-mv /home/ana_jashi/curso_edx/devops/project/module0_task1/1-bring_me_home /home/ana_jashi
+cd /home/
+
+curl --silent --fail --output /dev/null https://github.com/Analogic84/validation && echo OK || echo FAILURE
+curl --silent --fail --output /dev/null https://github.com/Analogic84/validation/tree/main && echo OK || echo FAILURE
+curl --silent --fail --output /dev/null https://github.com/Analogic84/validation/tree/main/module0_task1 && echo OK || echo FAILURE
+curl --silent --fail --output /dev/null https://github.com/Analogic84/validation/tree/main/module0_task1/1-bring_me_home && echo OK || echo FAILURE
+test -x ./1-bring_me_home && echo OK || echo FAILURE
+
+
+
+
+
 
 
 
