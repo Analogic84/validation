@@ -1,0 +1,10 @@
+#!/bin/bash
+# displays DevOps 10 times.
+
+COUNTER=0
+while [ $COUNTER -lt 10 ]
+do
+    echo "DevOps"
+    let COUNTER=COUNTER+1
+done
+
