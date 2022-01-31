@@ -1,11 +1,18 @@
 #!/bin/bash
-echo "Hello DevOps" > \*\\'"DevOps"\'\\*$\?\*\*\*\*\*:)
+touch "\*\\'"DevOps"\'\\*$\?\*\*\*\*\*:)"
+echo -e "Hello DevOps" 
 
 #curl --silent --fail --output /dev/null https://github.com/Analogic84/validation && echo OK || echo FAILURE
 #curl --silent --fail --output /dev/null https://github.com/Analogic84/validation/tree/main && echo OK || echo FAILURE
 #curl --silent --fail --output /dev/null https://github.com/Analogic84/validation/tree/main/module0_task5 && echo OK || echo FAILURE
 #curl --silent --fail --output /dev/null https://github.com/Analogic84/validation/tree/main/module0_task5/5-file && echo OK || echo FAILURE
 #test -x ./5-file && echo OK || echo FAILURE
+
+
+
+
+
+
 
 
 
