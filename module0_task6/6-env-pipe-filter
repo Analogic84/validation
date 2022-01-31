@@ -1,5 +1,17 @@
 #!/bin/bash
-printenv TERM
+env |grep "^TERM"
+#curl --silent --fail --output /dev/null https://github.com/Analogic84/validation && echo OK || echo FAILURE
+#curl --silent --fail --output /dev/null https://github.com/Analogic84/validation/tree/main && echo OK || echo FAILURE
+#curl --silent --fail --output /dev/null https://github.com/Analogic84/validation/tree/main/module0_task6 && echo OK || echo FAILURE
+#curl --silent --fail --output /dev/null https://github.com/Analogic84/validation/tree/main/module0_task6/6-env-pipe-filter && echo OK || echo FAILURE
+#test -x ./6-env-pipe-filter && echo OK || echo FAILURE
+
+
+
+
+
+
+
 
 
 
